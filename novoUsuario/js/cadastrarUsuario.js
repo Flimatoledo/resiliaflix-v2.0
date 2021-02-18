@@ -11,7 +11,7 @@
       msgErro(erro)
       return
     } else {
-      console.log(novoUsuario)
+      window.location.href = "./EmExibicao/index.html";
       cadastro.reset();
     }
 
